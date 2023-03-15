@@ -318,10 +318,10 @@ hr {
   border-color: aqua;
 }
 .contact {
-  background-image: url(/pictures/images.jpg);
-  background-size: cover;
+  background-image: url(https://user-images.githubusercontent.com/127105897/225304857-157874a8-9119-4b35-a07e-7cf50d4990c3.jpg);
+/*   background-size: cover;
   background-repeat: no-repeat;
-  height: 40rem;
+  height: 40rem; */
 }
 .contact-text h2 {
   text-align: center;
