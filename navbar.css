@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  background-image: url(src="forestest-web/pictures/sb-blog-programming.png" rel="forestest-web/pictures/sb-blog-programming.png");
+  background-image: url(/pictures/sb-blog-programming.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -95,7 +95,7 @@ img {
 }
 
 .article-navigation {
-  background-image: url(forestest-web/pictures/Без\ имени.png);
+  background-image: url(/pictures/Без\ имени.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -189,7 +189,7 @@ hr {
   border-color: aqua;
 }
 .our-works {
-  background-image: url(forestest-web/pictures/ok.png);
+  background-image: url(/pictures/ok.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 3rem 20rem;
@@ -318,7 +318,7 @@ hr {
   border-color: aqua;
 }
 .contact {
-  background-image: url(forestest-web/pictures/images.jpg);
+  background-image: url(/pictures/images.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 40rem;
@@ -395,7 +395,7 @@ hr {
 }
 
 .form-elements {
-  background-image: url(forestest-web/pictures/header.jpg);
+  background-image: url(/pictures/header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
