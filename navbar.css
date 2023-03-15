@@ -1,0 +1,467 @@
+header {
+  height: 100vh;
+  background-image: url(/pictures/sb-blog-programming.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.location {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(17, 2, 103, 0.842);
+  padding: 1.2rem;
+  position: fixed;
+  z-index: 100;
+  width: 78rem;
+  border-radius: 10px;
+  top: 1px;
+}
+.location .logo a {
+  display: block;
+  font-size: 2rem;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #fff;
+  transition: 0.5s;
+}
+.location .navigation {
+  padding-top: 40px;
+  padding-right: 50px;
+}
+.location .navigation a {
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.location .navigation a:hover {
+  opacity: 0.7;
+}
+spin {
+  color: rgba(74, 72, 72, 0.766);
+}
+.location .logo a:hover {
+  opacity: 0.8;
+}
+.banner-title {
+  position: relative;
+}
+.banner-title h1 {
+  position: absolute;
+  left: 13rem;
+  top: 10rem;
+  font-size: 4.5rem;
+  color: #ffffff9c;
+}
+.banner-title h2 {
+  position: absolute;
+  top: 16.5rem;
+  left: 8.5rem;
+  font-size: 2.5rem;
+  color: #ffffff91;
+}
+.banner-title .h5 {
+  position: absolute;
+  top: 22rem;
+  left: 8.8rem;
+  font-size: 1.4rem;
+  color: #ffffff84;
+}
+.banner-title .h4 {
+  position: absolute;
+  top: 25rem;
+  left: 7.8rem;
+  font-size: 1.4rem;
+  color: #ffffff6a;
+}
+.banner-picture {
+  width: 50px;
+  height: 50px;
+}
+img {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  top: 5.1rem;
+  left: 48rem;
+}
+
+.article-navigation {
+  background-image: url(/pictures/Без\ имени.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 3rem 20rem;
+  color: rgba(147, 147, 156, 0.591);
+  font-size: 2rem;
+  height: 35rem;
+}
+.article-navigation .h11 {
+  position: relative;
+  top: 2rem;
+  transition: 0.5s;
+}
+.article-navigation .h11:hover {
+  cursor: pointer;
+  padding: 10px;
+  color: #ffffff8d;
+}
+hr {
+  background-color: rgb(5, 172, 228);
+  position: absolute;
+  height: 7px;
+  width: 78rem;
+  top: 40.5rem;
+  left: 1.5rem;
+  border-radius: 5px;
+  border-color: aqua;
+}
+
+.article-navigation .h31 {
+  position: absolute;
+  top: 53.8rem;
+  left: 43.2rem;
+  color: #04c1dea8;
+
+  background-color: transparent;
+  border: 2px solid black;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.article-navigation .h31:hover {
+  padding: 30px 25px;
+  cursor: pointer;
+}
+.article-navigation .h32 {
+  position: absolute;
+  top: 61.8rem;
+  left: 3.8rem;
+  color: #130258ce;
+
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 0.8rem 3.8rem;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.article-navigation .h32:hover {
+  padding: 15px 15px;
+  cursor: pointer;
+}
+.article-navigation .h33 {
+  position: absolute;
+  top: 70rem;
+  left: 45rem;
+  right: 7rem;
+  color: #036675ae;
+
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 1rem 3.5rem;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.article-navigation .h33:hover {
+  padding: 25px 25px;
+  cursor: pointer;
+}
+.hr5 {
+  background-color: rgb(5, 172, 228);
+  position: absolute;
+  height: 7px;
+  width: 78rem;
+  top: 81.5rem;
+  left: 1.5rem;
+  border-radius: 5px;
+  border-color: aqua;
+}
+.our-works {
+  background-image: url(/pictures/ok.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 3rem 20rem;
+  height: 50rem;
+}
+.our-works h2 {
+  position: absolute;
+  top: 82rem;
+  left: 35rem;
+  text-align: center;
+  font-size: 3rem;
+  background-color: transparent;
+  border-radius: 15px;
+  border-style: dashed;
+  border-color: aqua;
+  padding: 12px 12px;
+  transition: 0.5s;
+}
+.our-works h2:hover {
+  padding: 20px 20px;
+  cursor: pointer;
+}
+.first-work {
+  top: 95rem;
+  left: 7rem;
+  width: 300px;
+  height: 350px;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.first-work:hover {
+  content: "";
+  animation: alternate;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 1.5rem 1.5rem;
+  border-radius: 5rem;
+}
+.works-type-1 h3 {
+  position: absolute;
+  top: 115.5rem;
+  left: 9rem;
+  font-size: 2.5rem;
+}
+.works-type-1 h3 a {
+  text-decoration: none;
+  color: bisque;
+  transition: 0.5s;
+}
+.works-type-1 h3 a:hover {
+  padding: 15px 15px;
+  color: darkgrey;
+}
+
+.first-work-2 {
+  top: 95rem;
+  left: 31rem;
+  width: 300px;
+  height: 350px;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.first-work-2:hover {
+  content: "";
+  animation: alternate;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 1.5rem 1.5rem;
+  border-radius: 5rem;
+}
+.first-work-3 {
+  top: 95rem;
+  left: 55rem;
+  width: 300px;
+  height: 350px;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.first-work-3:hover {
+  content: "";
+  animation: alternate;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 1.5rem 1.5rem;
+  border-radius: 5rem;
+}
+.works-type-2 h3 {
+  position: absolute;
+  top: 115.5rem;
+  left: 33rem;
+  font-size: 2.5rem;
+}
+.works-type-2 h3 a {
+  text-decoration: none;
+  color: bisque;
+  transition: 0.5s;
+}
+.works-type-2 h3 a:hover {
+  padding: 15px 15px;
+  color: darkgrey;
+}
+.works-type-3 h3 {
+  position: absolute;
+  top: 115.5rem;
+  left: 57rem;
+  font-size: 2.5rem;
+}
+.works-type-3 h3 a {
+  text-decoration: none;
+  color: bisque;
+  transition: 0.5s;
+}
+.works-type-3 h3 a:hover {
+  padding: 15px 15px;
+  color: darkgrey;
+}
+
+.hr6 {
+  background-color: rgb(5, 172, 228);
+  position: absolute;
+  height: 7px;
+  width: 78rem;
+  top: 137.5rem;
+  left: 1.5rem;
+  border-radius: 5px;
+  border-color: aqua;
+}
+.contact {
+  background-image: url(/pictures/images.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40rem;
+}
+.contact-text h2 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 3.5rem;
+  font-style: inherit;
+}
+.phone {
+  color: #d3d3dd;
+  position: relative;
+  top: 1rem;
+  left: 1.1em;
+  font-size: 2.5rem;
+  width: 8rem;
+  cursor: pointer;
+}
+.phone-number {
+  color: #e2e5e2c4;
+  position: relative;
+  top: 3rem;
+  left: 2.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.phone-- {
+  position: absolute;
+  width: 35rem;
+  height: 100px;
+  left: 12rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.email {
+  position: relative;
+  top: 1rem;
+  left: 1em;
+  color: rgb(8, 245, 245);
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.email2 {
+  position: relative;
+  top: 3rem;
+  left: 2rem;
+  color: rgb(46, 46, 237);
+  font-size: 2rem;
+  cursor: pointer;
+}
+.email-1 {
+  position: absolute;
+  top: 165rem;
+  left: 35rem;
+  width: 35rem;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.hr7 {
+  background-color: rgb(5, 172, 228);
+  position: absolute;
+  height: 7px;
+  width: 78rem;
+  top: 177.5rem;
+  left: 1.5rem;
+  border-radius: 5px;
+  border-color: aqua;
+}
+
+.form-elements {
+  background-image: url(/pictures/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 80.3rem;
+  height: 15rem;
+}
+.form .ins {
+  position: absolute;
+  top: 180rem;
+  left: 10rem;
+  color: #e2e5e2c4;
+  width: 50px;
+  height: 50px;
+}
+.form .telegram {
+  position: absolute;
+  top: 180rem;
+  left: 15rem;
+  color: #e2e5e2c4;
+  width: 50px;
+  height: 50px;
+}
+.form .tik {
+  position: absolute;
+  top: 180rem;
+  left: 20rem;
+  color: #e2e5e2c4;
+  width: 50px;
+  height: 50px;
+}
+.d {
+  color: rgba(157, 159, 159, 0.653);
+  position: absolute;
+  font-size: 2.8rem;
+  left: 13rem;
+  top: 185.5rem;
+}
+.n {
+  color: #7d7c7cab;
+  position: absolute;
+  font-size: 2.1rem;
+  left: 30rem;
+  top: 187rem;
+}
+.dn {
+  position: absolute;
+  font-size: 2rem;
+  left: 27rem;
+  top: 182rem;
+  color: #fff;
+}
+.message {
+  color: #fff;
+  position: absolute;
+  top: 6px;
+  left: 13.8rem;
+}
+.isn00 {
+  color: #fff;
+  position: absolute;
+  top: 6px;
+  left: 15.8rem;
+}
+.tuk {
+  color: #fff;
+  position: absolute;
+  top: 6px;
+  left: 17.8rem;
+}
