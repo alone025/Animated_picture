@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: consolas;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #000;
+}
+.scan {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  animation: color 2s linear infinite;
+}
+@keyframes color {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+.scan .face {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background: url(/man.png);
+  color: aqua;
+  background-size: 500px;
+}
+.scan .face::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/okl.png);
+  background-size: 500px;
+  animation: anime 4s ease-in-out infinite;
+}
+@keyframes anime {
+  0%,
+  100% {
+    height: 0%;
+  }
+  50% {
+    height: 100%;
+  }
+}
+.scan .face::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background: #3fefef;
+  border-radius: 8px;
+  filter: drop-shadow(0 0 20px #3fefef) drop-shadow(0 0 60px #3fefef);
+  animation: anima 4s ease-in-out infinite;
+}
+@keyframes anima {
+  0%,
+  100% {
+    top: 0%;
+  }
+  50% {
+    top: 100%;
+  }
+}
+.scan .face .dots {
+  position: absolute;
+  inset: 0;
+}
+.scan .face .dots::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  background: url(/photo_2023-03-10_14-55-25.jpg);
+  background-size: 500px;
+  animation: face-id 4s ease-in-out infinite;
+}
+@keyframes face-id {
+  0%,
+  100% {
+    height: 0;
+  }
+  50% {
+    height: 100%;
+  }
+}
+.text {
+  position: relative;
+  text-align: center;
+  margin-top: 15px;
+  color: aqua;
+  font-size: 2.5em;
+  animation: text 2s infinite linear;
+}
+@keyframes text {
+  0% {
+    filter: hue-rotate(100deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
