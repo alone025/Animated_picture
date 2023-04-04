@@ -30,7 +30,7 @@ body {
   position: relative;
   width: 500px;
   height: 500px;
-  background: url(/man.png);
+  background: url(https://user-images.githubusercontent.com/127105897/229837119-18f1c199-14a5-46bc-a887-c9d55f712fbc.png);
   color: aqua;
   background-size: 500px;
 }
@@ -86,7 +86,7 @@ body {
   left: 0;
   width: 500px;
   height: 500px;
-  background: url(/photo_2023-03-10_14-55-25.jpg);
+  background: url(https://user-images.githubusercontent.com/127105897/229836718-87d54025-3b8e-4de5-a0d7-099487f99fe7.jpg);
   background-size: 500px;
   animation: face-id 4s ease-in-out infinite;
 }
